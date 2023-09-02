@@ -1,16 +1,16 @@
 let name = {
     firstname:"Avinash",
-    lastname:"Sharma",
+    lastname:"Sharma"
 }
 
 let name2 = {
     firstname:"Rahul",
-    lastname:"Sharma",
+    lastname:"Sharma"
 }
 
 let name3 = {
     firstname:"Sachin",
-    lastname:"Tendulkar",
+    lastname:"Tendulkar"
 }
 
 let printFullName  = function(hometown,state){
@@ -21,7 +21,7 @@ let printFullName  = function(hometown,state){
 
 printFullName(name);
 
-
+//function borrowing
 // Example of call 
 printFullName.call(name,"Bikaner", "Rajasthan");
 
