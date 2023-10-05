@@ -69,6 +69,10 @@ try{
         res.sendFile(__dirname+'/public/advanced/closures/index.html');
     });
 
+    app.get('/iifes/', function (req, res) {
+        res.sendFile(__dirname+'/public/advanced/iifes/index.html');
+    });
+
 
 }
 catch(error){
