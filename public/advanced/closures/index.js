@@ -38,3 +38,20 @@ function p()
     q();
 }
 p();
+
+// Example 3
+
+function countFunction(){
+    let callCount = 0;
+    return function (){
+        console.log("Function call count is ", ++callCount);
+    }
+}
+
+const countFunctionCall = countFunction();
+countFunctionCall();
+countFunctionCall();
+countFunctionCall();
+countFunctionCall();
+countFunctionCall();
+
