@@ -72,6 +72,10 @@ try{
     app.get('/iifes/', function (req, res) {
         res.sendFile(__dirname+'/public/advanced/iifes/index.html');
     });
+    
+    app.get('/promise/', function (req, res) {
+        res.sendFile(__dirname+'/public/advanced/promise/index.html');
+    });
 
 
 }
